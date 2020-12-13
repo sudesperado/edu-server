@@ -19,6 +19,8 @@
 
     <modules>
         <module>gateway-server</module>
+        <module>eureka-server</module>
+        <module>service-hi</module>
     </modules>
     <!-- 指定jdk版本 -->
     <properties>
