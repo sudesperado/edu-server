@@ -21,6 +21,7 @@
         <module>gateway-server</module>
         <module>eureka-server</module>
         <module>service-hi</module>
+        <module>service-ribbon</module>
     </modules>
     <!-- 指定jdk版本 -->
     <properties>
