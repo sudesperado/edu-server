@@ -4,6 +4,7 @@ import com.zhitong.gatewayserver.modal.user.entity.User;
 import com.zhitong.gatewayserver.modal.user.mapper.UserMapper;
 import com.zhitong.gatewayserver.modal.user.service.IUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,5 +17,4 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {
-
 }
