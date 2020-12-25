@@ -8,10 +8,10 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.zhitong</groupId>
-    <artifactId>service-ribbon</artifactId>
+    <artifactId>service-feign</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>service-ribbon</name>
-    <description>service-ribbon project for Spring Boot</description>
+    <name>service-feign</name>
+    <description>service-feign project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -20,16 +20,13 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <version>1.4.5.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+            <version>1.4.2.RELEASE</version>
         </dependency>
     </dependencies>
 
